@@ -13,7 +13,7 @@
 		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.afdce451.js">
 		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.984db11e.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.1c952343.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/colemak2qwerty-page.svelte.38d46867.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div id="root" style="display: contents">
@@ -21,7 +21,13 @@
 
 <header class="container svelte-9knbik"><nav><ul><li><a href="/">Home</a></li></ul>
 		<ul><li><a href="/colemak2qwerty">colemak2qwerty</a></li></ul></nav></header>
-<main class="container"><section><p>Enjoy your stay!</p></section>
+<main class="container"><hgroup><h1>colemak2qwerty</h1>
+	<h2>Text you enter here with the Colemak keyboard will be treated as if you are using a QWERTY
+		keyboard
+	</h2></hgroup>
+
+<article><label>Enter any text:
+		<textarea></textarea></label></article>
 </main>
 
 
@@ -41,7 +47,7 @@
 						import("./_app/immutable/entry/app.94e2d4ba.js")
 					]).then(([kit, app]) => {
 						kit.start(app, __sveltekit_1w0bx4v.element, {
-							node_ids: [0, 2],
+							node_ids: [0, 3],
 							data,
 							form: null,
 							error: null
